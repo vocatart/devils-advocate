@@ -1,0 +1,160 @@
+@import url(fonts.css);
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+
+@keyframes link-hover1 {
+    from {color: #9AB3B3;}
+    to {color: #E06363;}
+}
+
+@keyframes button-hover {
+    from {background: #00000036;}
+    to {background: #00000075;}
+}
+
+@keyframes dropshadow-hover {
+    from {filter: drop-shadow(0px 0px 0px #3e4f4cc4)}
+    to {filter: drop-shadow(5px 5px 0px #3e4f4cc4)}
+}
+
+.title {
+    font-family: barlow-light;
+    font-weight: lighter;
+    color: #FFFFFF4F;
+    font-size: 150px;
+    text-align: center;
+    filter: drop-shadow(5px 5px 0px #3e4f4cc4);
+    letter-spacing: 10px;
+    margin-bottom: 1px;
+    animation: fade-in 0.5s;
+}
+
+.subtitle {
+    font-family: barlow-light;
+    font-weight: lighter;
+    color: #D49898C7;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 15px;
+    animation: fade-in 0.5s;
+    padding: 20px;
+}
+
+.selector-container {
+    text-align: center;
+    animation: fade-in 0.5s;
+}
+
+.selector-container h3 {
+    font-family: barlow-light;
+    font-weight: lighter;
+    color: #D49898;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.selector-container a {
+    font-family: barlow-light;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.selector-container a:hover{
+    color: #E06363;
+    animation: link-hover1 125ms forwards;
+}
+
+.selector-container a:link, a:visited{
+    color: #9AB3B3;
+}
+
+.br {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.button-container {
+    text-align: center;
+    animation: fade-in 0.5s;
+}
+
+.return-button {
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    background: #00000036;
+    font-family: barlow-xlight;
+    text-align: center;
+    border-radius: 30px;
+    line-height: 1.75em;
+    margin: 20px;
+}
+
+a.return-button {
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+.return-button:hover {
+    animation: button-hover 250ms forwards;
+}
+
+.character-container {
+    display: block;
+    text-align: center;
+}
+
+.character-container a {
+    font-family: barlow;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.character-container img {
+    border-radius: 30px;
+}
+
+#rose-anchor {
+    color: rgba(231, 148, 213, 0.342);
+}
+
+#levi-anchor {
+    color: rgba(231, 148, 148, 0.342);
+}
+
+#seren-anchor {
+    color: rgba(148, 231, 148, 0.342);
+}
+
+#sam-anchor {
+    color: rgba(148, 154, 231, 0.342);
+}
+
+#clem-anchor {
+    color: rgba(198, 148, 231, 0.342);
+}
+
+#atreo-anchor {
+    color: rgba(219, 231, 148, 0.342);
+}
+
+#wayde-anchor {
+    color: rgba(136, 54, 54, 0.342);
+}
+
+#autumn-anchor {
+    color: rgba(231, 185, 148, 0.342);
+}
+
+.character-anchor:hover {
+    animation: dropshadow-hover 125ms forwards;
+}
+
+body {
+    background-color: #1F1F1F;
+}

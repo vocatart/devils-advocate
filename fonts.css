@@ -1,0 +1,132 @@
+/* Barlow Font by Jeremy Tribby */
+
+@font-face {
+    font-family: barlow-thin;
+    src: url(fonts/barlow/Barlow-Thin.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: barlow-thin;
+    src: url(fonts/barlow/Barlow-ThinItalic.woff2);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: barlow-xlight;
+    src: url(fonts/barlow/Barlow-ExtraLight.woff2);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: barlow-xlight;
+    src: url(fonts/barlow/Barlow-ExtraLightItalic.woff2);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: barlow;
+    src: url(fonts/barlow/Barlow-Light.woff2);
+    font-style: normal;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: barlow-light;
+    src: url(fonts/barlow/Barlow-Light.woff2);
+}
+
+@font-face {
+    font-family: barlow;
+    src: url(fonts/barlow/Barlow-Light.woff2);
+    font-style: italic;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: barlow;
+    src: url(fonts/barlow/Barlow-Regular.woff2);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: barlow;
+    src: url(fonts/barlow/Barlow-Italic.woff2);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: barlow;
+    src: url(fonts/barlow/Barlow-Medium.woff2);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: barlow;
+    src: url(fonts/barlow/Barlow-MediumItalic.woff2);
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: barlow;
+    src: url(fonts/barlow/Barlow-SemiBold.woff2);
+    font-style: italic;
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: barlow;
+    src: url(fonts/barlow/Barlow-SemiBold.woff2);
+    font-style: italic;
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: barlow-bold;
+    src: url(fonts/barlow/Barlow-Bold.woff2);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: barlow-bold;
+    src: url(fonts/barlow/Barlow-BoldItalic.woff2);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: barlow-bold;
+    src: url(fonts/barlow/Barlow-ExtraBold.woff2);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: barlow-bold;
+    src: url(fonts/barlow/Barlow-ExtraBoldItalic.woff2);
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: barlow-bold;
+    src: url(fonts/barlow/Barlow-Black.woff2);
+    font-style: normal;
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: barlow-bold;
+    src: url(fonts/barlow/Barlow-BlackItalic.woff2);
+    font-style: italic;
+    font-weight: bolder;
+}
