@@ -1,0 +1,57 @@
+@import url(style.css);
+
+@import url(fonts.css);
+
+.transmission-content p {
+    font-family: barlow-thin;
+    align-items: center;
+    margin-right: 500px;
+    margin-left: 500px;
+    animation: fade-in 0.5s;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.end {
+    text-align: center;
+    padding: 10px;
+    color: #9AB3B3;
+}
+
+.rose {
+    color: rgba(231, 148, 213, 0.514);
+}
+
+.levi {
+    color: rgba(231, 148, 148, 0.589);
+}
+
+.seren {
+    color: rgba(148, 231, 148, 0.562);
+}
+
+.sam {
+    color: rgba(148, 154, 231, 0.596);
+}
+
+.clem {
+    color: rgba(198, 148, 231, 0.514);
+}
+
+.atreo {
+    color: rgba(219, 231, 148, 0.575);
+}
+
+.wayde {
+    color: rgba(136, 54, 54, 0.534);
+}
+
+.autumn {
+    color: rgba(231, 185, 148, 0.507);
+}
