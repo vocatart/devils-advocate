@@ -32,6 +32,18 @@
     animation: fade-in 0.5s;
 }
 
+.error-title {
+    font-family: barlow-light;
+    font-weight: lighter;
+    color: #FFFFFF4F;
+    font-size: 150px;
+    text-align: center;
+    filter: drop-shadow(5px 5px 0px #924d4d88);
+    letter-spacing: 10px;
+    margin-bottom: 1px;
+    animation: fade-in 0.5s;
+}
+
 .subtitle {
     font-family: barlow-light;
     font-weight: lighter;
